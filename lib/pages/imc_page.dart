@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class IMCPage extends StatefulWidget {
-  IMCPage({super.key});
+  const IMCPage({super.key});
 
   @override
   State<IMCPage> createState() => _IMCPageState();
@@ -119,7 +119,7 @@ class _IMCPageState extends State<IMCPage> {
               imcResult != 0
                   ? Text(
                       'Seu IMC é: ${imcResult.toStringAsFixed(1)}',
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 18,
                       ),
                     )
