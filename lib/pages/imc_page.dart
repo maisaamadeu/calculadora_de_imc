@@ -49,6 +49,12 @@ class _IMCPageState extends State<IMCPage> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
+              const Icon(
+                Icons.person_outline,
+                size: 128,
+                color: Colors.blue,
+              ),
+
               //Height
               TextField(
                 controller: heightTextEditingController,
